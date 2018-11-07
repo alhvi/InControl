@@ -12,15 +12,15 @@ namespace InControl
 	{
 		static VersionUpdater()
 		{
-			EditorApplication.playmodeStateChanged += Update;
+			EditorApplication.playModeStateChanged += Update;
 		}
 
 
-		static void Update()
+		static void Update(PlayModeStateChange state)
 		{
 			if (!EditorApplication.isPlaying)
 			{
-				EditorApplication.playmodeStateChanged -= Update;
+				EditorApplication.playModeStateChanged -= Update;
 				UpdateVersion();
 			}
 		}

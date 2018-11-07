@@ -1,3 +1,9 @@
+## This is an InControl fork
+Original repo is here https://github.com/pbhogan/InControl
+I attempted to make it work with Unity 2018.2, it appears to be working at the moment. If you find any errors please let me know.
+
+Original readme follows
+
 ## NOTICE
 
 This open source edition of InControl is now discontinued. It will be frozen at version 1.4.4. This repository will remain available, but no new features will be added or significant changes made.
